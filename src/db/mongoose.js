@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const uri = process.env.TASK_URI;
+const uri = process.env.TASK_M_URI;
 mongoose.connect(uri, {
   useNewUrlParser: true,
   useCreateIndex: true,
